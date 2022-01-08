@@ -5,23 +5,23 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      
-     </style>
+    <link rel="stylesheet" href="style.css">
     <title>Meu Site</title>
    
 </head>
 <body>
     <header>
-        <img src="imgs/euIF.jpeg" alt="Foto de João revoredo em uma biblioteca estudando">
-        <h1>João Revoredo</h1>
+        <!--<img src="imgs/euIF.jpeg" id="imgCapa" alt="Foto de João revoredo em uma biblioteca estudando">-->
+        <h1 id="title">João Revoredo</h1>
     </header>
         <section>
             <header>
-                <h2>Informações</h2>
+                <h2 id="subtitle">Informações</h2>
             </header>
-            <article>
+            <article class="post">
                 <header>
-                    <h3>Sobre mim</h3>
-                    <img src="imgs/euCacto.jpg"
+                    <h3 class="infoTitle">Sobre mim</h3>
+                    <img src="imgs/euCacto.jpg" id="imgPost">
                 </header>
                 <p>
                     Eu nasci e me criei em garanhuns, Sou filho de artista e de professora, formei minhas ideias e convicções 
@@ -31,7 +31,7 @@
                     nos âmbitos de patrimônio cultural, culinária quilombola, leis de ações afirmativas identitárias e até mesmo como 
                     vocalista da Banda do campus. Embora seguindo firme e nunca deixando de trabalhar nos estudos do curso, admito ter 
                     sido levado em alguns momentos mais por essas esferas dos projetos. Porém, com a vinda da Pandemia e o foco voltando mais para o ensino a distância
-                    juntamente de um ensino consequentemente mais pessoal e em alguns casos auto-didata pude me encantar ainda 
+                    juntamente de um ensino consequentemente mais pessoal e, em alguns casos auto-didata, pude me encantar ainda 
                     mais com a área da Programação, com a força dessa comunidade e me senti ainda mais abraçado por esse meio,
                     focando ainda mais no meu desenvolvimento no ramo desde então. Entre meus interesses e áreas de conhecimento 
                     pude estudar java, banco de dados, redes, javascript e diversos outros conteúdos, mas me interessei sobretudo 
@@ -42,14 +42,24 @@
                     que possam não apenas transformar e melhorar organizações, mas resolver problemas e mudar a vida das pessoas
                     dentro e fora delas.
                 </p>
-                <p>
-                    Conheça o meu Portfólio: <a href="https://www.github.com/Jrevoredo42" target="_blank">Github</a>
+                <p id="paragrafoContato">
+                    Contate-me:
                 </p>
             </article>
         </section>
-    <footer>
-        Email: <a href="mailto:revoredojf@gmail.com">Google</a>
-      <!--     Contato:<a href="telto:">telefone</a>--> 
+    <footer id="Contato">
+      <ul>
+          <li>
+            <a href="mailto:revoredojf@gmail.com" target="_blank">Email</a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/J.revoredo" target="_blank">Instagram</a>
+          </li>
+          <li>
+            <a href="https://www.github.com/Jrevoredo42" target="_blank">Github</a>
+          </li>
+      </ul>
+      <!--     Contato:<a href="telto:">telefone</a> Email: --> 
     </footer>
 </body>
 </html>
