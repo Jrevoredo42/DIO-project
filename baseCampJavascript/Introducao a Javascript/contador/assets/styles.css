@@ -1,0 +1,21 @@
+body{
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+#counter{
+display: flex;
+padding-top: 164px;
+
+    /* teste de estilização e dimensionamento
+  padding-left: 600px;
+  
+  height: 200px;
+  width: 94px;
+  margin-left: 370px;
+  padding-right: 50px;
+*/
+}
