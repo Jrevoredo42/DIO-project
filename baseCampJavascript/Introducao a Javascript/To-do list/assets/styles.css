@@ -1,0 +1,30 @@
+body{
+    background-color: tomato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+   
+}
+
+#text{
+    border-radius: 7px;
+    font-size: 18pt;
+    height: 42px;
+    width : 300px;
+}
+
+#campo{
+    padding-top: 70px;
+    margin-right: 215px;
+    padding-left: 296px;
+
+}
+
+
+
+button{
+    font-size: 18pt;
+    border-radius: 7px;
+  
+}
