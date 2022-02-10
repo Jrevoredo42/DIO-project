@@ -1,3 +1,48 @@
+:root{
+   --azul: #03071E;
+   --vermelho: #D00000;
+   --amarelo: #FFBA08;
+   --laranja: #DC2F02;
+   --vinho: #370617;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-color: blue;
+
+    background: var(--vinho);
+    font-family: 'Times New Roman', Times, serif ;
+
+}
+
+header .container{ /* classe do navbar*/
+    display: flex; /* maneira de alinhar elementos em tela(flex box) que mantem itens em linha, de maneira vertical*/
+    background-color: var(--azul); /* cor de fundo do navbar*/
+    border: 1px solid black; /* deu cor a borda e colocou a linha que define o navbar em evidencia*/
+    flex-direction: row; /* propriedade default do display flex que tende a deixar itens alinhados na direção pra cima*/
+    align-items:center; /* centraliza itens */
+    justify-content: space-between; /* trabalha como os elementos estao disponibilizados de maneira horizontal(distancia entre elementos da tag h2 e os outros elementoss)*/
+    
+}
+
+header .logo{
+    margin-left: 5px;
+    color: var(--laranja);
+    font-family:'Arial Black', Times;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAA;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
 }
