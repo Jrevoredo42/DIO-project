@@ -7,16 +7,22 @@
 
 }
 
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+
+/* elementos base */
+
+
 body{
 
     background: var(--vinho);
     font-family: 'Times New Roman', Times, serif ;
+    color: var(--amarelo)
 
 }
 
@@ -32,7 +38,7 @@ header .container{ /* classe do navbar*/
 
 header .logo{
     margin-left: 5px;
-    color: var(--laranja);
+    color: var(--vermelho);
     font-family:'Arial Black', Times;
     font-size: 40px;
 }
@@ -44,5 +50,60 @@ header nav a{
 }
 
 header nav a:hover{
-    color: #fff;
+    color: var(--laranja);
+}
+
+div .container{
+    margin-bottom: 15%;
+}
+
+/* Album principal */
+
+.album-principal{
+    font-size: 16px;
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../imgs/revoredo-album-teste2.svg');
+
+    height: 600px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.album-principal .descricao{
+    margin-top: 10px;
+    margin-bottom: 40px;
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+.album-principal .titulo {
+    margin-top: 15%;
+    font-size: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.btn{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    font-size: 12px;
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.btn:hover{
+    background-color: var(--laranja);
+    color:black;
+}
+
+.btn i{
+    margin-right: 8px;
 }
