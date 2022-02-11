@@ -7,7 +7,7 @@
 
 }
 
-
+/* geral */
 *{
     margin: 0;
     padding: 0;
@@ -15,9 +15,7 @@
 }
 
 
-/* elementos base */
-
-
+/* elementos base do corpo */
 body{
 
     background: var(--vinho);
@@ -26,6 +24,7 @@ body{
 
 }
 
+/* definições de container direcionado pra tag header (navbar)*/
 header .container{ /* classe do navbar*/
     display: flex; /* maneira de alinhar elementos em tela(flex box) que mantem itens em linha, de maneira vertical*/
     background-color: var(--azul); /* cor de fundo do navbar*/
@@ -36,6 +35,7 @@ header .container{ /* classe do navbar*/
     
 }
 
+/* Logo do navbar*/
 header .logo{
     margin-left: 5px;
     color: var(--vermelho);
@@ -43,25 +43,28 @@ header .logo{
     font-size: 40px;
 }
 
+/* links do navbar*/
 header nav a{
     text-decoration: none;
     color: #AAA;
     margin-right: 10px;
 }
 
+/* ao passar o mouse sobre itens do navbar */
 header nav a:hover{
     color: var(--laranja);
 }
 
+/* alinhamento do container de texto e botões da foto de capa */
 div .container{
     margin-bottom: 15%;
+    margin-left: 15px;
 }
 
-/* Album principal */
-
+/* Album principal (foto de capa com os textos) */
 .album-principal{
     font-size: 16px;
-    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../imgs/revoredo-album-teste2.svg');
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../imgs/revoredo-album-capa.svg');
 
     height: 600px;
     background-size: cover;
@@ -72,20 +75,23 @@ div .container{
     align-items: flex-start;
 }
 
+/* dimensionamento e definições de texto da capa principal*/
 .album-principal .descricao{
     margin-top: 10px;
     margin-bottom: 40px;
     font-weight: bolder;
     font-size: 15px;
+    width: 80%;
 }
 
+/* dimesionamento e fonte do titulo da foto principal*/
 .album-principal .titulo {
     margin-top: 15%;
     font-size: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-
+/* estilos de cores de fundo, borda, cor, posicionamento e passar e tirar o cursor do botão */
 .btn{
     background-color: rgba(0,0,0,.50);
     border: none;
@@ -99,11 +105,20 @@ div .container{
     transition: .3s ease all;
 }
 
+/* ao passar o mouse sobre o botão*/
 .btn:hover{
     background-color: var(--laranja);
     color:black;
 }
 
+/* icones do botão */
 .btn i{
     margin-right: 8px;
+}
+
+/* Unidade do carousel de albuns*/
+.box-album{
+    height: 100%;
+    width: 100%;
+    display:block;
 }
