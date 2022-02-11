@@ -32,7 +32,7 @@ header .container{ /* classe do navbar*/
     flex-direction: row; /* propriedade default do display flex que tende a deixar itens alinhados na direção pra cima*/
     align-items:center; /* centraliza itens */
     justify-content: space-between; /* trabalha como os elementos estao disponibilizados de maneira horizontal(distancia entre elementos da tag h2 e os outros elementoss)*/
-    
+
 }
 
 /* Logo do navbar*/
@@ -47,7 +47,7 @@ header .logo{
 header nav a{
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px;
+    margin-right: 15px;
 }
 
 /* ao passar o mouse sobre itens do navbar */
@@ -121,4 +121,29 @@ div .container{
     height: 100%;
     width: 100%;
     display:block;
+}
+
+.carousels{
+    margin-top: 10px;
+
+}
+
+.container .titulo-carrosel{
+    margin-top: 50px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #faa307;
+    font-family:'Arial Black', Times;
+}
+
+.ends-credit {
+	width: 100%;
+	background-color: var(--azul);
+	padding: 16px;
+	color: #e5e8e8;
+	position: static;
+	bottom: 0;
+	text-align: center;
+	font-weight: 400;
+    margin-top: 15px;
 }
