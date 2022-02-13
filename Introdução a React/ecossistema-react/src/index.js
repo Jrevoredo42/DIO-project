@@ -1,17 +1,45 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React, { Component } from 'react'
+import ReactDOM from 'react-dom'
+import './app.css'
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
-);
+class App extends Component {
+    constructor(props){
+        super(props)
+        this.state = {
+            copo: 'agua',
+            clock: 1000,
+        }
+    }
+    componentDidMount(){
+        window.setTimeout(() => {
+            this.setState({
+                copo: 'suco',
+            })
+        }, 2000);
+    }
+  
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+        alteraCopo = () => {
+        this.setState = ({
+            copo: 'refrigerante',
+        })
+        // this.state.copo = 'refrigerante';
+    }
+
+
+    render(){
+        const { clock, copo } = this.state;
+        return(
+            <div>
+                <h1>{clock}</h1>
+                <button onClick={() => this.alteraCopo()}>{copo}</button>
+            </div>
+        )
+    }
+
+}
+
+
+const rootElement = document.getElementById('root');
+ReactDOM.render(<App/>, rootElement);
