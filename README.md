@@ -1,3 +1,16 @@
-# Inter-Dio-Bootcamp 
+## DIO - repository
 
-Repositório dedicado aos codigos e projetos executados no Bootamp de Front-end Development ofertado pela parceria da Inter com a DIO
+
+Repositório dedicado aos codigos e projetos executados com os cursos e eventos da @Digital inovation One, salvo alguns projetos que quis destacar e optei armazenar fora deste repositório;
+
+## Dentre os conteúdos aqui composto,estão:
+
+  - 💻 Códigos de cursos executados em bootcamps;
+  - 🧑🏽‍💻 Projetos realizados em eventos, bootcamps e/ou labs;
+  - ⌚ Atividades executadas em acelerações;
+
+# Conheça meu perfil na DIO:
+
+  🔗 <a href='https://web.dio.me/users/revoredojf?tab=achievements'>DIO profile<a/>
+
+
