@@ -11,6 +11,6 @@ Repositório dedicado aos codigos e projetos executados com os cursos e eventos 
 
 # Conheça meu perfil na DIO:
 
-  🔗 <a href='https://web.dio.me/users/revoredojf?tab=achievements'>DIO profile<a/>
+  🔗 <a href='https://web.dio.me/users/revoredojf?tab=achievements' target='_blank'>DIO profile<a/>
 
 
