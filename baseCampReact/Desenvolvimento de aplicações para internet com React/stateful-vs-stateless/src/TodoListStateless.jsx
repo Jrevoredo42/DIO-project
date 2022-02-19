@@ -1,17 +1,33 @@
-import React, { useState } from 'react';
+// importação do react e do useState do hooks;
+import React, { useState } from 'react'; 
 
-const TodoListFunctional = () => {
+//Componente principal;
+const TodoListFunctional = () => { 
 
-    const [items, setItems] = useState(['Tomate', 'Alface', 'Melancia']);
-    const addItem = (item) => {
+/* declaração do UseState do hooks, sendo:
+    - Primeiro o item a ser declarado como estado (array de intems);
+    - Depois o estado que vai ser usado para alteração (setItems);
+    - atribuição ao useState que vai receber o valor do state ( "()" );
+    - valor do state (array de items preenchido);
+ */
+    const [items, setItems] = useState(['Tomate', 'Alface', 'Melancia']); 
+
+// componente que adiciona itens
+    const addItem = (item) => { 
         setItems([...items,item]);
     }
 
-    const removeItem = () => {
+// componente que remove itens
+    const removeItem = () => { 
         setItems([...items.slice(1)])
     }
 
-    return (
+    /* retorno do componente principal, que:
+      - preenche a lista utilizando método map de js;
+      - retorna pelo map os items da lista dentro da tag li;
+      - contém dois botões que recebem os componentes de adicionar e remover items;
+     */
+    return ( 
 
         <div>
             <p>Lista de tarefas</p>

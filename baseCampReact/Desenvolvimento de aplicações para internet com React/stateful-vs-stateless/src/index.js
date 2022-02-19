@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import TodoListStatefull from './TodoListStatefull';
+import TodoListStateless from './TodoListStateless';
 
 const rootElement = document.getElementById('root');
-ReactDOM.render(<TodoListStatefull/>, rootElement);
+ReactDOM.render(<TodoListStateless/>, rootElement);
 
